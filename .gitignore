@@ -1,0 +1,6 @@
+# Ignore everything in the root directory except for these folders
+/*
+!.gitignore
+!/Assets/
+!/Packages/
+!/ProjectSettings/
