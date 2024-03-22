@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: e5fd33ba9832ac943b27be9083414d56
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 804e1ce4c496647cfa3f1a1134187c71, type: 3}
+  _removeEmptyRootObjects: 1
+  _scaleFactor: 1
+  _maximumLod: 300
+  _readWriteEnabled: 1
+  _generateColliders: 0
+  _swapUvs: 0
+  _generateLightmapUVs: 0
+  _importBlendShapeNames: 1
+  _blendShapeFrameWeight:
+    _option: 0
+    _multiplier: 1
+  _importNormals: 0
+  _importTangents: 0
+  _importAnimations: 2
+  _addAnimatorComponent: 0
+  _animationLoopTime: 1
+  _animationLoopPose: 0
+  _importMaterials: 1
+  _enableGpuInstancing: 0
+  _useSceneNameIdentifier: 0
+  _textureCompression: -50
+  optimizeGameObjects: 0
+  materials:
+  - {fileID: -6337967760301518917, guid: e5fd33ba9832ac943b27be9083414d56, type: 3}
+  - {fileID: 4835078630258379571, guid: e5fd33ba9832ac943b27be9083414d56, type: 3}
+  - {fileID: -1862587365583011464, guid: e5fd33ba9832ac943b27be9083414d56, type: 3}
+  - {fileID: 878175483633365134, guid: e5fd33ba9832ac943b27be9083414d56, type: 3}
+  - {fileID: 900731619591654819, guid: e5fd33ba9832ac943b27be9083414d56, type: 3}
+  - {fileID: -8144348459462632454, guid: e5fd33ba9832ac943b27be9083414d56, type: 3}
+  - {fileID: -6083782345664591421, guid: e5fd33ba9832ac943b27be9083414d56, type: 3}
+  - {fileID: 3711759557521005068, guid: e5fd33ba9832ac943b27be9083414d56, type: 3}
+  - {fileID: -8225902176158868100, guid: e5fd33ba9832ac943b27be9083414d56, type: 3}
+  - {fileID: 1589903818537789527, guid: e5fd33ba9832ac943b27be9083414d56, type: 3}
+  - {fileID: 2002966669174787079, guid: e5fd33ba9832ac943b27be9083414d56, type: 3}
+  - {fileID: -4445099636952074964, guid: e5fd33ba9832ac943b27be9083414d56, type: 3}
+  textures: []
+  hasSceneData: 1
+  hasAnimationData: 0
+  hasMaterialData: 1
+  hasTextureData: 0
+  animations: []
+  _extensions:
+  - name: KHR_materials_specular
+    supported: 1
+    used: 1
+    required: 0
+  - name: KHR_materials_ior
+    supported: 1
+    used: 1
+    required: 0
+  - name: KHR_materials_emissive_strength
+    supported: 1
+    used: 1
+    required: 0
+  _textures: []
+  _mainAssetIdentifier: main asset
+  _importPlugins: []

@@ -15,6 +15,7 @@ namespace Animators
         private static readonly int Unskippable = Animator.StringToHash("unskippable");
         private static readonly int Sliding = Animator.StringToHash("sliding");
         private static readonly int Running = Animator.StringToHash("running");
+        private static readonly int Jump = Animator.StringToHash("jump");
 
         private void OnEnable()
         {
@@ -60,7 +61,7 @@ namespace Animators
         {
             if (jumping)
             {
-                _animator.CrossFade("jump", 0.2f);
+                _animator.SetTrigger(Jump);
             }
         }
 
