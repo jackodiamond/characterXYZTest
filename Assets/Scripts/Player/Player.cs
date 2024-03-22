@@ -95,12 +95,12 @@ namespace Player
 
         public void ChangeMovementDirection(IMovementDirection movementDirection)
         {
-          //  this._movementDirection = movementDirection;
+
         }
 
         public void ChangeMovementDirection(CameraView cameraView)
         {
-          //  _movementDirection = SetCameraDirection(cameraView);
+
         }
 
         /// <summary>
@@ -115,7 +115,7 @@ namespace Player
             _movements.Add(MovementEnum.Midair, new MidairMovement(this));
             _movements.Add(MovementEnum.Crouch, new CrouchingMovement(this));
             _movements.Add(MovementEnum.Slide, new SlidingMovement(this));
-            _movements.Add(MovementEnum.Attack, new AttackingMovement(this));
+   
         }
 
     }

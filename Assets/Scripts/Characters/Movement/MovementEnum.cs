@@ -5,7 +5,6 @@
         Ground,
         Midair,
         Crouch,
-        Slide,
-        Attack
+        Slide
     }
 }
