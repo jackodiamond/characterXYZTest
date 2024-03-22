@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Player.MovementDirection
 {
+    //used for getting camera direction
     public class ThirdPersonCameraDirection : IMovementDirection
     {
         public Vector3 GetDirection()

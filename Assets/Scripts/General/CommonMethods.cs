@@ -58,10 +58,6 @@ namespace General
             return result;
         }
 
-        public static Vector3 CreateVectorWithoutLoosingY(Vector3 vector, float y)
-        {
-            return new Vector3(vector.x, y, vector.z);
-        }
 
         public static float CalculateGroundVelocity(Vector3 velocity)
         {
@@ -76,12 +72,6 @@ namespace General
             var res = vector;
             res.y = y;
             return res;
-        }
-
-
-        public static Vector3 CreateVectorWith0InY(Vector3 vector3)
-        {
-            return new Vector3(vector3.x, 0, vector3.z);
         }
 
         public static float getValueInRange(float multiplier, float min, float max)

@@ -12,7 +12,7 @@ namespace Player
     [RequireComponent(typeof(Stats))]
     public class Player : MonoBehaviour, IPlayer
     {
-
+        //different type of movements to be used in gameplay, easily extendible
         private readonly Dictionary<MovementEnum, IMovement> _movements =
             new Dictionary<MovementEnum, IMovement>();
 

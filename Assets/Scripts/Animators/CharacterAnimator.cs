@@ -2,6 +2,7 @@
 
 namespace Animators
 {
+    //responsible to set animator state
     public class CharacterAnimator : MonoBehaviour, ICharacterAnimator
     {
         private Animator _animator;

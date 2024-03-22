@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Animators
 {
+    //middle layer for changing animations
     public class AnimatorFacade : IAnimatorFacade
     {
         private readonly ICharacterAnimator _characterAnimator;
